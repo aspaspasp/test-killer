@@ -1,6 +1,16 @@
 Create a directory named terraform_ws
 
+```shell
+cd terraform_ws
+```{{copy}}
+
 Copy the code below to `~/main.tf`{{}} using the editor tab:
+
+```shell
+vi main.tf
+```{{copy}}
+
+press i to get to insert mode and past the contecnt in main.tf
 
 ```hcl
 resource "aws_sqs_queue" "terraform_queue" {
