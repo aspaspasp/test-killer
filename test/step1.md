@@ -1,2 +1,2 @@
 
-Run `k get pod -A`
+Run simple linux commands  `ls`
