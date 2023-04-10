@@ -15,3 +15,7 @@ resource "aws_sqs_queue" "terraform_queue" {
   }
 }
 ```{{copy}}
+
+```shell
+terraform init
+```{{copy}}
