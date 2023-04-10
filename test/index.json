@@ -2,20 +2,20 @@
   "title": "terraform 101",
   "description": "This will provide the user with a brief introduction to terraform and state handling.",
   "details": {
-    "intro": {
-      "text": "intro.md",
-      "courseData": "pre_launch.sh"
-    },
     "steps": [
       {
         "title": "test the commands",
         "text": "step1.md"
-        
+
       }
     ],
     "finish": {
       "text": "finish.md"
     }
+  },
+  "intro": {
+    "text": "intro.md",
+    "courseData": "pre_launch.sh"
   },
   "backend": {
     "imageid": "ubuntu"
