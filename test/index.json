@@ -1,9 +1,10 @@
 {
-  "title": "ubuntu",
-  "description": "Use a simple ubuntu env",
+  "title": "terraform 101",
+  "description": "This will provide the user with a brief introduction to terraform and state handling.",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "pre_launch.sh"
     },
     "steps": [
       {
