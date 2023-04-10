@@ -1,13 +1,13 @@
 {
-  "title": "Kubernetes 1node",
-  "description": "Use a simple one node Kubernetes cluster and let user list all pods",
+  "title": "ubuntu",
+  "description": "Use a simple ubuntu env",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "List all pods",
+        "title": "test the commands",
         "text": "step1.md"
       }
     ],
