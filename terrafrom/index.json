@@ -21,7 +21,12 @@
       },
       {
         "title": "Manual Infra change detection (drift detection) ",
-        "text": "step5.md"
+        "text": "step5.md",
+        "background": "drift.sh"
+      },
+      {
+        "title": "Manual Infra change detection (drift detection) ",
+        "text": "step6.md"
       }
     ],
     "intro": {
