@@ -1,10 +1,10 @@
 Review terraform plan.
 
-```{r letter-a, echo=FALSE}
-question("What number is the letter A in the English alphabet?",
-  answer("8"),
-  answer("14"),
-  answer("1", correct = TRUE),
-  answer("23")
-)
-```
+Q2. Inequality predicates are allowed on ...
+- [ ] A. partition key columns
+- [ ] B. clustering key columns
+- [ ] C. all table columns
+<details>
+  <summary>Answer</summary>
+  <p><b>B</b></p>
+</details>
