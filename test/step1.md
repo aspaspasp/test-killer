@@ -29,3 +29,7 @@ resource "aws_sqs_queue" "terraform_queue" {
 ```shell
 terraform init
 ```{{copy}}
+
+You should see output including these lines:
+
+

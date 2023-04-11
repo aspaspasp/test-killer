@@ -4,9 +4,12 @@
   "details": {
     "steps": [
       {
-        "title": "test the commands",
+        "title": "terraform init",
         "text": "step1.md"
-
+      },
+      {
+        "title": "terraform plan",
+        "text": "step2.md"
       }
     ],
     "finish": {
