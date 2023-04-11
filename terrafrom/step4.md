@@ -1,0 +1,3 @@
+```shell
+terraform apply
+```{{copy}}

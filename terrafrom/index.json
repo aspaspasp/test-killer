@@ -14,6 +14,15 @@
       {
         "title": "terraform plan review",
         "text": "step3.md"
+      },
+      {
+        "title": "terraform apply",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "terraform apply",
+        "text": "step5.md"
       }
     ],
     "intro": {
