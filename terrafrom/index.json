@@ -17,8 +17,7 @@
       },
       {
         "title": "terraform apply",
-        "text": "step4.md",
-        "verify": "step4-verify.sh"
+        "text": "step4.md"
       },
       {
         "title": "Manual Infra change detection (drift detection) ",
