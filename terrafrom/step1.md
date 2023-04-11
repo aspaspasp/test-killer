@@ -2,13 +2,13 @@ Create a directory named terraform_ws
 
 ```shell
 mkdir terraform_ws && cd terraform_ws
-```{{copy}}
+```{{execute}}
 
 Copy the code below to `~/main.tf`{{}} using the editor tab:
 
 ```shell
 vi main.tf
-```{{copy}}
+```{{execute}}
 
 press i to get to insert mode and past the contecnt in main.tf
 
@@ -24,11 +24,16 @@ resource "aws_sqs_queue" "terraform_queue" {
     Environment = "production"
   }
 }
-```{{copy}}
+
+provider "aws" {
+region = "us-west-2"
+}
+
+```{{execute}}
 
 ```shell
 terraform init
-```{{copy}}
+```{{execute}}
 
 You should see output including these lines:
 

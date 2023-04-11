@@ -2,7 +2,7 @@ export aws credentials AWS_SECERET_ACCESS_KEY and AWS_ACCESS_KEY_ID of your AWS 
 
 ```shell
 terraform plan
-```{{copy}}
+```{{execute}}
 
 you would land into an error...!
 try solving it by yourself.
