@@ -14,7 +14,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "prelaunch.sh"
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     },
     "finish": {
       "text": "finish.md"
