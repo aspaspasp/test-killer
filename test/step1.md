@@ -1,7 +1,7 @@
 Create a directory named terraform_ws
 
 ```shell
-cd terraform_ws
+mkdir terraform_ws && cd terraform_ws
 ```{{copy}}
 
 Copy the code below to `~/main.tf`{{}} using the editor tab:
@@ -31,5 +31,15 @@ terraform init
 ```{{copy}}
 
 You should see output including these lines:
+
+```text
+Initializing the backend...
+
+Initializing provider plugins...
+- Finding latest version of hashicorp/aws...
+- Installing hashicorp/aws v4.62.0...
+- Installed hashicorp/aws v4.62.0 (signed by HashiCorp)
+
+```{{}}
 
 
