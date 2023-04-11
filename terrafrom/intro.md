@@ -3,6 +3,6 @@
 
 ### Welcome !
 
-Sample scenario on ubuntu image.
+Sample scenario for terraform.
 
 **HAVE FUN**
