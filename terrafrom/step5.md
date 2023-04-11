@@ -1,5 +1,11 @@
-we made some changes manually on the console.
-detect the change...
+
+```shell
+chmod +x /root/terraform_ws/drift.sh
+bash /root/terraform_ws/drift.sh
+```{{copy}}
+
+the script you ran made some changes manually on the console.
+run plan to detect the change...
 
 ```shell
 terraform plan
