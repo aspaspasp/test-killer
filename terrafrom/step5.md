@@ -1,8 +1,8 @@
 
 ```shell
-chmod +x /root/terraform_ws/drift.sh
-bash /root/terraform_ws/drift.sh
-```{{copy}}
+q_url=https://sqs.us-west-2.amazonaws.com/857896345731/terraform-example-queue
+aws sqs untag-queue --queue-url  --tag-keys "Environment" --region us-west-2
+```{{execute}}
 
 the script you ran made some changes manually on the console.
 run plan to detect the change...
