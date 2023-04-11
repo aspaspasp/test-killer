@@ -11,3 +11,11 @@ Let's do this for the
 [template](https://developer.hashicorp.com/terraform/language/providers/configuration)
 provider.
 
+
+
+You should see some helpful output describing what actions Terraform will take,
+including this line:
+
+```text
+Plan: 1 to add, 0 to change, 0 to destroy.
+```
