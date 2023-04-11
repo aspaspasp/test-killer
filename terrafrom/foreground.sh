@@ -1,3 +1,3 @@
 echo "Installing scenario..."
-while [ ! -f /tmp/finished ]; echo . ; do sleep 1; done
+while [ ! -f /tmp/finished ]; printf "." ; do sleep 1; done
 echo DONE
